@@ -26,7 +26,7 @@ The  data provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_cur
 IndA.bam
 IndA.bam.bai
 ```
-The BAM files contain ancient DNA read mapped to the mitochondrial human genome (mtDNA). The reads were previously quality filtered and sorted in SAMtools. Duplicate reads and reads with multiple mappings have also been removed. The BAI file was generated using the samtools index command.
+The BAM file contain ancient DNA read mapped to the mitochondrial human genome (mtDNA). The reads were previously quality filtered and sorted in SAMtools. Duplicate reads and reads with multiple mappings have also been removed. The BAI file was generated using the ```samtools index``` command.
 
 **MtDNA reference genome FASTA file:** ```rCRS.fasta``` **and index** ```rCRS.fasta.fai```.
 
