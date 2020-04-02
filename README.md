@@ -21,7 +21,7 @@ The  data provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_cur
 **Mapped BAM files post mapping and filtering and BAI index files.**
 
 ```
-# IndA
+# IndA means individual A
 
 IndA.bam
 IndA.bam.bai
