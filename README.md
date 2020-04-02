@@ -99,7 +99,7 @@ Here, I used NGS data from individual [**I0061**](https://www.ebi.ac.uk/ena/data
 <img src="Images/S230_DamagePattern.png">
 
 
-Those results match the ancient DNA dagamge pattern (no UDG treatment; partial UDG treatment; full UDG treatment), which mentioned in [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA.
+Those results match the ancient DNA dagamge pattern (no UDG treatment; partial UDG treatment; full UDG treatment), which mentioned in [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/).
 
 
 
