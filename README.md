@@ -55,7 +55,7 @@ mapDamage -i IndA.bam -r rCRS.fasta
 
 <img src="Images/Fragmisincorporation.png">
 
- **T** reprensents by red, and **A** reprensents by blue.
+ **C -> T** reprensents by the red line, and **G -> A** reprensents by the blue line.
  
 The frequencies of the 12 possible mismatches are plotted as a function of distance from 5'-and 3'-ends. At each position, the substitution frequency, e.g., C -> T, is calculated as the proportion of human reference sequence positions carrying C where the sequencing base is T. 
 
