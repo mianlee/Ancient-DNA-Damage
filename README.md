@@ -79,10 +79,26 @@ The main diagnostic feature documented so far is a pattern of Cytosine (C) → T
 
 ## Damage pattern after Uracil-DNA-Glycosylase (UDG) treatment
 
+### 1. Input files
 
 Here, I used NGS data from individual [**I0061**](https://www.ebi.ac.uk/ena/data/view/PRJEB8448) sequenced by [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I checked ancient DNA damage pattern for libraries of I0061: **S0061** (non-UDG), **S0670** (half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). You can also download ```.bam``` files from here: [S0061](data/S0061.bam), [S0670](data/S0670.bam), [S0230](data/S0230.bam).
 
 
+**MtDNA reference genome FASTA file:** [```rCRS.fa```](data/rCRS.fa).
+
+
+### 2. Runing mapDamage2 and generate reports
+
+
+And then run:
+
+```
+bwa index rCRS.fa
+
+mapDamage -i S0670.bam -r rCRS.fa
+mapDamage -i S0230.bam -r rCRS.fa
+mapDamage -i S0061.bam -r rCRS.fa
+```
 
 **Results**:
 
