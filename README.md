@@ -75,3 +75,11 @@ The main diagnostic feature documented so far is a pattern of Cytosine (C) → T
 [Nadin Rohland *et al*. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA.
 
 [My own summary](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage)
+
+
+## Damage pattern after Uracil-DNA-Glycosylase (UDG) treatment
+
+
+Here, I used NGS data from individual [**I0061**](https://www.ebi.ac.uk/ena/data/view/PRJEB8448) sequenced by [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I checked ancient DNA damage pattern for libraries of I0061: **S0061** (non-UDG), **S0670** (half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). You can also download ```.bam``` file from here: [S0061](data/S0061.bam), [S0670](data/S0670.bam), [S0230](data/S0230.bam).
+
+
