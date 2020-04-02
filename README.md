@@ -46,14 +46,14 @@ mapDamage -i IndA.bam -r rCRS.fasta
 
 1. It shows that purines (**As** and **Gs**) are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. For IndA for example:
 
-<img src="Images/Depurination.PNG" width=1000, hight=1300>
+<img src="Images/Depurination.png" width=1000, hight=1300>
 
 Full results [available here](data/Fragmisincorporation_plot.pdf).
 
 2. It also displays the patterns of C -> T and G -> A changes across the DNA fragments of a given sample. For IndA for example:
 
 
-<img src="Images/Fragmisincorporation.PNG">
+<img src="Images/Fragmisincorporation.png">
 
  **T** reprensents by red, and **A** reprensents by blue.
  
