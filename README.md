@@ -42,7 +42,7 @@ mapDamage -i IndA.bam -r rCRS.fasta
 ```
 ### 3. Results
 
-**1. Fragmisincorporation_plot**
+**Fragmentation and Misincorporation Patterns**
 
 1. It shows that purines (**As** and **Gs**) are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. For IndA for example:
 
@@ -57,7 +57,7 @@ mapDamage -i IndA.bam -r rCRS.fasta
 
  **T** reprensents by red, and **A** reprensents by blue.
  
-The frequencies of the 12 possible mismatches are plotted as a function of distance from 5'-and 3'-ends. At each position, the substitution frequency, e.g., C -> T, is calculated as the proportion of human reference sequence positions carrying C where the sequencing base is T. **This means (my understanding) that given the human reference sequence positions carrying C, what is the frequency of C -> T transition? (Other possible events are C -> G, C -> A, and no mismatch C -> C)**.
+The frequencies of the 12 possible mismatches are plotted as a function of distance from 5'-and 3'-ends. At each position, the substitution frequency, e.g., C -> T, is calculated as the proportion of human reference sequence positions carrying C where the sequencing base is T. 
 
 [Full results](data/Fragmisincorporation_plot.pdf).
  
