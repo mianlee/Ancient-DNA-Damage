@@ -18,7 +18,7 @@ I followed the instruction on [mapDamage2 homepage](https://ginolhac.github.io/m
 The  data provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited them in my [data](data/) folder.
 
 
-**Mapped BAM files post mapping and filtering and BAI index files.**
+**Mapped BAM file and BAI index files.**
 
 ```
 # IndA means individual A
