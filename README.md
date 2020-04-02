@@ -1,7 +1,7 @@
 # Ancient-DNA-Damage
 
 
-### Summary ancient DNA damage patterns
+## Summary ancient DNA damage patterns
 
 High nucleotide misincorporation rates can be observed as a result of severe post-mortem DNA damage. Such misincorporation patterns are instrumental to authenticate ancient sequences versus modern contaminants. Inflated cytosine deamination rates at 5′-overhangs, an increase in C -> T substitution rates toward sequencing starts and complementary increase in G -> A rates toward reads ends. Conversely, a novel procedure targeting single-stranded templates has shown elevated C -> T substitution rates at both ends. [Hákon Jónsson *et al*. 2013](https://academic.oup.com/bioinformatics/article/29/13/1682/184965), [Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long)
 
@@ -11,3 +11,31 @@ High nucleotide misincorporation rates can be observed as a result of severe pos
 I followed the instruction on [mapDamage2 homepage](https://ginolhac.github.io/mapDamage/) to install all requirements for mapDamage2 and then mapDamage2 itself. You can also install ```mapDamage2``` through ``conda`` using the following command:
 
 ```conda install -c bioconda mapdamage2```
+
+
+### Input files
+
+The  data provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited them in my [data](data/) folder.
+
+
+**Mapped BAM files post mapping and filtering and BAI index files.**
+
+```
+IndA.bam
+IndA.bam.bai
+
+```
+The BAM files contain ancient DNA read mapped to the mitochondrial human genome (mtDNA). The reads were previously quality filtered and sorted in SAMtools. Duplicate reads and reads with multiple mappings have also been removed. The BAI file was generated using the samtools index command.
+
+**MtDNA reference genome FASTA file:** ```rCRS.fasta``` **and index** ```rCRS.fasta.fai```.
+
+The reference genome has been previously indexed using command ```samtools index rCRS.fasta```
+
+
+
+
+### Runing mapDamage2 and generate reports
+
+```
+mapDamage -i IndA.bam -r rCRS.fasta 
+```
