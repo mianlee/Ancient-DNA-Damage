@@ -48,7 +48,7 @@ mapDamage -i IndA.bam -r rCRS.fasta
 
 <img src="Images/Depurination.png" width=1000, hight=1300>
 
-Full results [available here](data/Fragmisincorporation_plot.pdf).
+[Full results](data/Fragmisincorporation_plot.pdf).
 
 2. It also displays the patterns of C -> T and G -> A changes across the DNA fragments of a given sample. For IndA for example:
 
@@ -59,7 +59,7 @@ Full results [available here](data/Fragmisincorporation_plot.pdf).
  
 The frequencies of the 12 possible mismatches are plotted as a function of distance from 5'-and 3'-ends. At each position, the substitution frequency, e.g., C -> T, is calculated as the proportion of human reference sequence positions carrying C where the sequencing base is T. **This means (my understanding) that given the human reference sequence positions carrying C, what is the frequency of C -> T transition? (Other possible events are C -> G, C -> A, and no mismatch C -> C)**.
 
-Full results [available here](data/Fragmisincorporation_plot.pdf).
+[Full results](data/Fragmisincorporation_plot.pdf).
  
 **Note**:
 The main diagnostic feature documented so far is a pattern of Cytosine (C) → Thymine (T) substitutionsthat increases toward the 5′ end of the sequence reads, which in most applications, results in a complementary Guanine (G) → Adenine (A) pattern in the 3′ end caused by enzymatic repair. This pattern has been attributed to Cytosine deamination at single-stranded ends of the molecules and shows a clear tendency of increase over time in contrast to other potential diagnostic features, such as fragment length and preferential fragmentation at purines. **[Pontus Skoglund *et al*. 2014](https://www.pnas.org/content/111/6/2229)**
