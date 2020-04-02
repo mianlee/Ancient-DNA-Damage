@@ -13,7 +13,7 @@ I followed the instruction on [mapDamage2 homepage](https://ginolhac.github.io/m
 ```conda install -c bioconda mapdamage2```
 
 
-### Input files
+### 1. Input files
 
 The  data provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited them in my [data](data/) folder.
 
@@ -35,8 +35,11 @@ The reference genome has been previously indexed using command ```samtools index
 
 
 
-### Runing mapDamage2 and generate reports
+### 2. Runing mapDamage2 and generate reports
 
 ```
 mapDamage -i IndA.bam -r rCRS.fasta 
 ```
+### 3. Results
+
+
